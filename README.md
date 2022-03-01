@@ -69,7 +69,7 @@ If you don't have kubectl and minkube installed you can run `install_minikube.sh
 
 * kubectl & minkiube
   ```sh
-  sh install_minikube.sh [install|remove] <installation_path>
+  ./scripts/install_minikube.sh [install|remove] <installation_path>
   ```
 * start Minkube
   ```sh
