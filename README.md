@@ -83,7 +83,7 @@ If you don't have kubectl and minkube installed you can run `install_minikube.sh
 
 ### Installation
 
-_Below is an example of how you can set up an app. All scripts should be run from the root of project.
+Below is an example of how you can set up an app. All scripts should be run from the root of project.
 
 1. Clone the repo
    ```sh
