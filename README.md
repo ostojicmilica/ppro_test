@@ -109,12 +109,9 @@ These commands should print the URL of the hello-world Services on dev and prod.
 
     ```sh
     minikube service hello-world --url -n dev
-    ```
-
-    ```sh
     minikube service hello-world --url -n prod
     ```
-    
+
 You can open the URL in a web browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
