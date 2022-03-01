@@ -1,6 +1,6 @@
-name: ppro_test
+name: hello-world
 version: 0.0.1
 keywords:
-  - ppro_test
+  - hello-world
 sources:
 home:
