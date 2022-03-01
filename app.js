@@ -24,22 +24,11 @@ async function initMongo() {
     return client.db(client.s.options.dbName).collection('messages')
 }
 
-async function retrieveMessage(db) {
-    const result = await db.find().toArray()
-    return result
-}
-
-async function saveNote(db, message) {
-    await db.insertOne(message)
-  }
-
 async function start() {
     const db = await initMongo()
-
-    await saveNote(db, {message: "Hello World!"})
-  
+    await db.insertOne({message:"Hello PPRO Wolrld!!"});
     app.get('/', async (req, res) => {
-        result = await retrieveMessage(db)
+        const result = await db.findOne()
         res.send(result.message)
     })
   
