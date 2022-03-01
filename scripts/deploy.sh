@@ -1,0 +1,2 @@
+helm upgrade --install --wait hello-world-dev ./helm-charts -n dev -f ./helm-charts/value-dev.yaml --namespace=dev --create-namespace  
+helm upgrade --install --wait hello-world-prod ./helm-charts -n prod -f ./helm-charts/value-prod.yaml --namespace=prod --create-namespace 
